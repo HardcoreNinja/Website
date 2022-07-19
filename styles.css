@@ -1,0 +1,41 @@
+/*Body================================================================================*/
+.body-container {
+    width: auto;
+    height: 1920px;
+    background: plum;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+  }
+  
+  .transport {
+    width:  auto;
+    height: 60px;
+    display: flex;
+    background: skyblue;
+  }
+
+  .heroImage{
+    width: auto;
+    height: 500px;
+    flex: 2 1 auto;
+    background: goldenrod;
+
+  }
+
+  .body{
+    width: auto;
+    height: 500px;
+    flex: 2 1 auto;
+    background: blueviolet;
+  }
+
+  /*Footer================================================================================*/
+  .footer-container{
+    width: auto;
+    height: 200px;
+    background: orangered;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+  }
