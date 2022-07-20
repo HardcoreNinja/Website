@@ -1,41 +1,118 @@
-/*Body================================================================================*/
+/*Body Container================================================================================*/
 .body-container {
-    width: auto;
-    height: 1920px;
-    background: plum;
-    display: flex;
-    flex-direction: column;
-    align-items: stretch;
-  }
-  
-  .transport {
-    width:  auto;
-    height: 60px;
-    display: flex;
-    background: skyblue;
-  }
+  width: auto;
+  height: 1920px;
+  background: plum;
+  display: flex;
+  flex-direction: column;
+  place-content: center center;
+}
 
-  .heroImage{
-    width: auto;
-    height: 500px;
-    flex: 2 1 auto;
-    background: goldenrod;
+/*Navigation Bar================================================================================*/
+.navigation {
+  width: auto;
+  height: 80px;
+  display: flex;
+  background-color: #1f2937;
+  place-content: center center;
+  flex-wrap: nowrap;
+  gap: 20px;
+}
 
-  }
+button {
+  background-color: transparent;
+  border: 0px;
+  color: white;
+}
 
-  .body{
-    width: auto;
-    height: 500px;
-    flex: 2 1 auto;
-    background: blueviolet;
-  }
+.logo {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 50px;
+}
 
-  /*Footer================================================================================*/
-  .footer-container{
-    width: auto;
-    height: 200px;
-    background: orangered;
-    display: flex;
-    flex-direction: column;
-    align-items: stretch;
-  }
+.push {
+  margin-left: 600px;
+}
+
+/*Bodies================================================================================*/
+.body {
+  width: auto;
+  height: 500px;
+  flex: 2 1 auto;
+  display: flex;
+  background-color: #1f2937;
+  align-items: center;
+  justify-content: center;
+  flex-flow: row nowrap;
+  gap: 20px;
+}
+
+/*Body One===============================================================================*/
+.bodyOneContainerOne {
+  width: 500px;
+  height: 250px;
+  display: flex;
+  background-color: transparent;
+  place-content: center center;
+  flex-flow: column nowrap;
+  gap: 5px;
+  border: 1px;
+  color: white;
+}
+
+.bodyOneContainerOneHeadline {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 50px;
+}
+
+.bodyOneContainerOnePA {
+  width: 800px;
+  height: auto;
+}
+
+.bodyOneContainerOneSignUpButton {
+  width: 125px;
+  height: 40px;
+  background-color: #3b82f6;
+  border: 0px;
+  color: white;
+  border-radius: 4px
+}
+
+.bodyOneContainerTwo {
+  width: 500px;
+  height: 250px;
+  display: flex;
+  background-color: #6d747d;
+  place-content: center center;
+  flex-flow: row wrap;
+  color: white;
+}
+
+/*Body Two===============================================================================*/
+.two {
+  background-color: #e5e7eb;
+}
+
+/*Body Three===============================================================================*/
+.three {
+  background-color: #e5e7eb;
+}
+
+/*Body Four===============================================================================*/
+.four {
+  background-color: white;
+  flex: 1 10 auto
+}
+
+/*Footer================================================================================*/
+.footer-container {
+  width: auto;
+  height: 200px;
+  background: #1f2937;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  place-content: center center;
+  align-items: center;
+}
