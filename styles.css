@@ -47,17 +47,16 @@ button {
 .body.one {
   background-color: #1f2937;
   place-content: center center; 
-  place-items: center center;
+  place-items: center center; 
   flex-flow: row wrap;
   padding: 20px;
 }
 
 .body.one.container1 {
   width: 500px;
-  height: auto;
-  flex-flow: column nowrap;
-  gap: 10px;
+  flex-flow: column wrap;
   color:#E5E7EB;
+  gap: 10px;
   font-family: Arial, Helvetica, sans-serif;
   place-items: flex-start center;
 }
@@ -65,6 +64,8 @@ button {
 .body.one.headline {
   color: #F9FAF8;
   font-size: 50px;
+  background-color: transparent;
+  padding: 0px;
 }
 
 .body.one.signup {
@@ -97,6 +98,7 @@ button {
   font-size: 20px;
   color: #1F2937;
   font-weight: bolder;
+  padding: 20px;
 }
 
 
