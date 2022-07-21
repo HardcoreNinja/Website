@@ -27,7 +27,7 @@ button {
 
 .logo {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  font-size: 50px;
+  font-size: 30px;
 }
 
 .push {
@@ -130,15 +130,25 @@ button {
   height: 500px;
   background-color: #e5e7eb;
   place-content: center center;
-  flex-flow: column nowrap;
-  padding: 50px;
-  text-align: right;
+  flex-flow: column wrap;
+}
 
+.body.four.container1{
+  width: 700px;
+  flex-flow: column wrap;
+  margin-top:40px;
 }
 
 .body.four.text1 {
   font-size: 36px;
   color: #1F2937
+  
+}
+
+.body.four.container2{
+  width: auto;
+  flex-flow: column wrap;
+  margin-left: 400px;
 }
 
 .body.four.author1 {
