@@ -1,7 +1,7 @@
 /*Body Container================================================================================*/
 .body-container {
   width: auto;
-  height: 1920px;
+  height: auto;
   background: plum;
   display: flex;
   flex-direction: column;
@@ -11,12 +11,13 @@
 /*Navigation Bar================================================================================*/
 .navigation {
   width: auto;
-  height: 80px;
+  height: auto;
   display: flex;
   background-color: #1f2937;
   place-content: center center;
   flex-flow: rows wrap;
   gap: 20px;
+  padding: 20px;
 }
 
 .logo {
@@ -38,33 +39,31 @@ button {
 /*Global Body Variables=====================================================================*/
 .body {
   width: auto;
+  height: auto;
   display: flex;
 }
 
 /*Body One===============================================================================*/
 .body.one {
-  width: auto;
-  height: 500px;
   background-color: #1f2937;
-  place-content: center center;
+  place-content: center center; 
+  place-items: flex-start center;
   flex-flow: row wrap;
-  gap: 20px;
+  padding: 20px;
 }
 
 .body.one.container1 {
   width: 500px;
-  height: 250px;
-  display: flex;
+  height: auto;
   flex-flow: column nowrap;
-  place-content: center flex-start;
   gap: 10px;
   color:#E5E7EB;
   font-family: Arial, Helvetica, sans-serif;
+  place-items: flex-start center;
 }
 
 .body.one.headline {
   color: #F9FAF8;
-  font-family: Arial, Helvetica, sans-serif;
   font-size: 50px;
 }
 
@@ -74,7 +73,7 @@ button {
   background-color: #3b82f6;
   border: 0px;
   color:#E5E7EB;
-  border-radius: 4px
+  border-radius: 4px;
 }
 
 .body.one.container2 {
