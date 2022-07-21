@@ -154,29 +154,27 @@ button {
 
 /*Body Five===============================================================================*/
 .body.five {
-  flex: 0 10 auto;
-  height: 500px;
+  flex-shrink: 10;
   background: #F9FAF8;
+  color: #E5E7EB;
   place-content: center center;
   flex-flow: row wrap;
   font-size: 20px;
   font-family: Arial, Helvetica, sans-serif;
+  padding: 20px;
 }
 
 .body.five.box1 {
-  width: 700px;
-  height: 200px;
   background-color: #3b82f6;
   border-radius: 4px;
   place-items: center center;
 }
 
 .body.five.box1.container1 {
-  width: 300px;
-  height: 100px;
   flex-flow: column nowrap;
   place-items: flex-start center;
   background-color: transparent;
+
 }
 
 .body.five.headline1 {
@@ -184,27 +182,21 @@ button {
   font-weight: bolder;
   background-color: transparent;
   font-size: 25px;
+  padding: 0px;
 }
 
 .body.five.text2 {
-  color: #E5E7EB;
-
-  font-size: 20px;
   background-color: transparent;
+  padding: 0px;
 }
 
 .body.five.box1.container2 {
-  width: auto;
-  height: 200px;
   flex-flow: column wrap;
   place-content: center center;
   background-color: transparent;
-
 }
 
 .body.five.button1 {
-  width: 200px;
-  height: 50px;
   border: 2px solid #E5E7EB;
   border-radius: 5px;
   background-color: transparent;
