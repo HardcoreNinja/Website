@@ -112,7 +112,6 @@ button {
   width: 200px;
   height: 300px;
   font-family: Arial, Helvetica, sans-serif;
-  gap: 20px;
 }
 
 .body.three.box {
@@ -131,12 +130,7 @@ button {
   color: #1F2937;
   font-family: 'Times New Roman', Times, serif;
   font-size: 36px;
-  padding: 20px;
-}
-
-.body.four.container1{
-  height: 300px;
-  flex-flow: row wrap;
+  padding: 50px;
 }
 
 .body.four.container2{
